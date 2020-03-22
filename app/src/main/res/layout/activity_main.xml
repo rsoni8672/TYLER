@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+   android:background="#000000">
+
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Rahul, How was your day?"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/audio"
+        android:layout_gravity="center"
+        />
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+         >
+        <Button
+            android:layout_margin="10dp"
+android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:id="@+id/start_playing"
+            android:text="Start Recording"
+            android:textColor="#FFFFFF"
+            android:textAllCaps="false"
+            android:onClick="startrecording"
+            android:background="@drawable/custom_button"/>
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif"
+            android:id="@+id/stop"
+            android:text="Done"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custom_button"
+            android:visibility="invisible"
+            android:textAllCaps="false"
+
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/play"
+    android:text="PLAY"
+        android:visibility="invisible"
+    android:onClick="startplying"/>
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/pause"
+    android:text="PAUSE"
+        android:visibility="invisible"
+    android:onClick="stoplaying"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/test_view"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:text="Response: Angry "
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="center">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="How are you Actually feeling?"
+    android:gravity="center"
+    android:textColor="#fFFFFF"
+    android:textSize="20dp"
+    />
+
+    <Spinner
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/emotion_spinner"
+    android:background="@drawable/custom_button">
+
+</Spinner>
+</LinearLayout>
+
+<Button
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:onClick="submitresponse"
+    android:background="@drawable/custom_button"
+    android:layout_gravity="center"
+
+    />
+</LinearLayout>

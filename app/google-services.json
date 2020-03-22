@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1004010056915",
+    "firebase_url": "https://tyler-45396.firebaseio.com",
+    "project_id": "tyler-45396",
+    "storage_bucket": "tyler-45396.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004010056915:android:b8039f08f818b90e9a3826",
+        "android_client_info": {
+          "package_name": "com.example.android.tyler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004010056915-9l1lh24tmvid54u4ee8n5ig9j4tqd48k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.tyler",
+            "certificate_hash": "6080d9e7b4e2f0b79c1109d7e9af90f6547bff2d"
+          }
+        },
+        {
+          "client_id": "1004010056915-punsoc66rjipnu4nsep23f2u4goq9qbq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCihXibLCDkQhSGF4zEsZKMbLsEMZZ75WQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004010056915-punsoc66rjipnu4nsep23f2u4goq9qbq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
